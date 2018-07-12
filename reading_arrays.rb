@@ -8,37 +8,37 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  return $student_names[0]
+  return $STUDENT_NAMES[0]
 end
 
 first_student_by_index
 
 def fourth_student_by_index
-  puts $student_names[4]
+  puts $STUDENT_NAMESs[4]
 end
 
 fourth_student_by_index
 
 def last_student_by_index
-  puts $student_names.room.first
+  puts $STUDENT_NAMES.room.first
 end
 
 last_student_by_index
 
 def first_student_by_method
- puts $student_names[0]
+ puts $STUDENT_NAMES[0]
 end
 
 first_student_by_method
 
 def last_student_by_method
-  puts $student_names.first
+  puts $STUDENT_NAMES.first
 end
 
 last_student_by_method
 
 def first_second_and_third_students
-  puts $student_names[0,1,2]
+  puts $STUDENT_NAMES[0,1,2]
 end
 
 first_second_and_third_students
